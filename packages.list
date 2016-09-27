@@ -19,6 +19,7 @@ epc
 epl
 flycheck
 ggtags
+gnupg
 go-eldoc
 golden-ratio
 go-mode
@@ -28,10 +29,10 @@ helm-gtags
 helm-projectile
 helm-swoop
 hexrgb
+highlight-symbol
 iedit
 jedi
 jedi-core
-let-alist
 markdown-mode
 palette
 pkg-info
@@ -39,7 +40,6 @@ popup
 projectile
 python-environment
 s
-seq
 session
 smartparens
 tide

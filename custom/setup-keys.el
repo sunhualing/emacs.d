@@ -48,3 +48,8 @@
 
 ;; org-mode keybindings
 (global-set-key [f12] 'org-agenda)
+
+(global-set-key [(control f3)] 'highlight-symbol)
+(global-set-key [f3] 'highlight-symbol-next)
+(global-set-key [(shift f3)] 'highlight-symbol-prev)
+(global-set-key [(meta f3)] 'highlight-symbol-query-replace)

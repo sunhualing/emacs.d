@@ -60,3 +60,5 @@
 
 ;; package duplicate-thing
 (require 'duplicate-thing)
+
+(require 'highlight-symbol)
