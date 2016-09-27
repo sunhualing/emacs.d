@@ -1,12 +1,13 @@
 # 我的Emacs配置
 
 ## 说明
+本文主要是参考[https://github.com/mawenbao/emacs.d],并适当的添加自己的配置，用来保存自己的emacs配置的。
 本配置以[https://github.com/tuhdo/emacs-c-ide-demo](https://github.com/tuhdo/emacs-c-ide-demo)为基础，并加入了我早年收集的若干配置而成。安装和使用的package主要有helm, projectile, cedet等，主要配置了C/C++，Golang和Python的开发环境。
 
 ## 安装
 首先请备份你的`~/.emacs.d`目录，然后
 
-    git clone https://github.com/mawenbao/emacs.d ~/.emacs.d
+    git clone https://github.com/sunhualing/emacs.d ~/.emacs.d
 
 初次启动需要安装各种package，需要等一会，安装完成后最好重启下emacs。
 
