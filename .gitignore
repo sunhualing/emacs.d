@@ -1,3 +1,4 @@
+.python-environments/
 /my-config/
 /my-data/
 /elpa/
@@ -14,4 +15,3 @@ ede-projects.el
 *.elc
 *.pyc
 *.swp
-
