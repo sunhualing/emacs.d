@@ -47,3 +47,4 @@
             ;; company is an optional dependency. You have to
             ;; install it separately via package-install
             (company-mode-on)))
+(setq jedi:environment-root "jedi")
