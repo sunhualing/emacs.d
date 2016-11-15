@@ -62,3 +62,6 @@
 (require 'duplicate-thing)
 
 (require 'highlight-symbol)
+
+(require 'elpy)
+(elpy-enable)
