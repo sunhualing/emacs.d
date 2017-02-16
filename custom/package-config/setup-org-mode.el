@@ -34,3 +34,19 @@
          )
         ("blog" :components ("blog-notes" "blog-static"))
         ))
+;; active Babel languages
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((gnuplot . t)
+   (ditaa . t)
+   (C . t)
+   (sh . t)
+   (python . t)
+   (R . t)
+   (ruby . t)
+   (dot . t)
+   (octave . t)
+   (sqlite . t)
+   (perl . t)))
+
+(setq gnuplot-program "/usr/bin/gnuplot")
