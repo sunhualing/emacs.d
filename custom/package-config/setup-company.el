@@ -2,8 +2,18 @@
 (provide 'setup-company)
 (require 'company)
 
-(add-to-list 'company-backends 'company-semantic)
-(setq company-backends (delete 'company-clang company-backends))
-(define-key c-mode-map  [(control tab)] 'company-complete)
-(define-key c++-mode-map  [(control tab)] 'company-complete)
-(add-to-list 'company-backends 'company-c-headers)
+(setq company-dabbrev-downcase nil)
+(add-hook 'after-init-hook 'global-company-mode)
+
+(setq company-backends
+      '((company-files          ; files & directory
+         company-keywords       ; keywords
+         company-capf
+         company-dabbrev-code
+         company-yasnippet
+         company-semantic
+         company-cmake
+         company-gtags
+         company-abbrev
+         )
+        ))

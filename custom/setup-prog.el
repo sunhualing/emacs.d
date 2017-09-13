@@ -15,6 +15,12 @@
 (setq-default c-basic-offset 4)
 (setq default-fill-column 85)
 
+;; cmake tab width
+(setq-default cmake-tab-width 4)
+
+;; js2 mode for js
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js3-mode))
+
 ;; golang
 (add-hook 'go-mode-hook 'auto-complete-mode)
 

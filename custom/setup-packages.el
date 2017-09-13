@@ -14,6 +14,7 @@
 (require 'setup-tramp)
 ;; (require 'setup-session)
 (require 'setup-saveplace)
+(require 'setup-web-mode)
 
 (require 'go-autocomplete)
 
@@ -65,3 +66,17 @@
 
 (require 'elpy)
 (elpy-enable)
+
+(setq x-select-enable-clipboard t)
+(setq x-select-enable-primary t)
+
+
+;; the config for the javascript
+;;(require 'company-mode)
+(require 'company-tern)
+
+(add-to-list 'company-backends 'company-tern)
+(add-hook 'js3-mode-hook (lambda ()
+                           (tern-mode)
+                           (company-mode)))
+(require 'indium)
