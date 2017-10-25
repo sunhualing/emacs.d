@@ -5,7 +5,7 @@
 (require 'setup-golden-ratio)
 (require 'setup-helm)
 (require 'setup-helm-gtags)
-;; (require 'setup-ggtags)
+;;(require 'setup-ggtags)
 (require 'setup-cedet)
 (require 'setup-company)
 (require 'setup-projectile)

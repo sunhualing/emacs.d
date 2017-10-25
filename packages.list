@@ -64,6 +64,7 @@ seq
 session
 smartparens
 tern
+tern-auto-complete
 tide
 typescript-mode
 undo-tree
@@ -73,6 +74,6 @@ websocket
 ws-butler
 yaml-mode
 yasnippet
+ycmd
 zenburn-theme
 zygospore
-ycmd
