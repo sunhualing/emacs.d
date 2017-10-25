@@ -59,10 +59,17 @@
 
 ## Key binding
 1. M-. 查找一个tag，比如函数定义类型定义等。
+
    C-u M-. 查找下一个tag的位置
+   
    M-* 回到上一次运行M-.前的光标位置。
+   
    M-TAB 自动补齐函数名。
+   
    C-F3 highlight-symbol 高亮当前符号
+   
    F3   highlight-symbol-next  到下一个高亮符号
+   
    shift+ F3 highlight-symbol-prev 到前一个高亮符号
+   
    M+ f3     highlight-symbol-query-replace 高亮符号替换
