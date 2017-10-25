@@ -79,4 +79,10 @@
 (add-hook 'js3-mode-hook (lambda ()
                            (tern-mode)
                            (company-mode)))
+(eval-after-load 'tern
+  '(progn
+     (require 'tern-auto-complete)
+     (tern-ac-setup)))
+
 (require 'indium)
+(require 'setup-ycmd)
